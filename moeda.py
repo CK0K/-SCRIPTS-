@@ -30,11 +30,13 @@ C:::::C              o::::o     o::::o  n::::n    n::::n   v:::::v:::::v   e::::
         CCCCCCCCCCCCC   ooooooooooo     nnnnnn    nnnnnn        vvv            eeeeeeeeeeeeee   rrrrrrr              sssssssssss      aaaaaaaaaa  aaaa  ooooooooooo   
 
 \033[0m""")
-time.sleep(1)
+
+
+"""time.sleep(1)
 for i in range(10):
     print("")
 int_valor = float(input("Insira: "))
-conversao = input("""
+conversao = input('''
                   1- Euro
                   2- Dollar
                   3- Real
@@ -42,12 +44,27 @@ conversao = input("""
                   5- Rublo Russo
                   6- 
                   
-                  Conversão: """)
+                  Conversão: ''')
 
 if conversao == "1":
     print(int_valor)
 elif conversao == "2":
     print(f"{int_valor* 1.08} $")
+"""
 
 
-    
+
+def verificar_command(command):
+    if command == "exit":
+        exit()
+    elif command == "login":
+        user = str(input(" "))
+        password = str(input("password: "))
+        if user and password == user and password:
+            print(f"Bem vindo, {user}: ")
+
+user = "André"
+commando = ""
+while commando != "exit":
+    commando  = input(" ")
+    verificar_command(commando)
