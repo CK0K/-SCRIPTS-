@@ -1,0 +1,5 @@
+1- Meter uma base dados onde lá por default diz a conversão ativa
+2- Meter algo super minimalista
+3- Caso queira mudar de moeda escrevo /settings
+4- Meter um pequeno sistema de login
+5- Caso seja admin tenho acesso as contas de todos e posso criar mais contas mas tudo por terminal
