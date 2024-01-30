@@ -3,3 +3,6 @@
 3- Caso queira mudar de moeda escrevo /settings
 4- Meter um pequeno sistema de login
 5- Caso seja admin tenho acesso as contas de todos e posso criar mais contas mas tudo por terminal
+6- Criar diretrizes diferentes ex: ir da pasta que esta no local A do local B
+
+

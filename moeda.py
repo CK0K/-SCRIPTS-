@@ -57,14 +57,18 @@ elif conversao == "2":
 def verificar_command(command):
     if command == "exit":
         exit()
-    elif command == "login":
+    elif command == "/login":
         user = str(input(" "))
         password = str(input("password: "))
         if user and password == user and password:
             print(f"Bem vindo, {user}: ")
+    else:
+        print("Error or command doesn't exist")
 
 user = "André"
 commando = ""
 while commando != "exit":
-    commando  = input(" ")
+    commando  = input("")
     verificar_command(commando)
+
+    
